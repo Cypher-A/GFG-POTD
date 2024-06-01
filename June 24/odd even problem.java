@@ -1,6 +1,6 @@
-public class EvenOddChecker {
+class Solution {
     
-    public static String evenOdd(String s) {
+    public static String oddEven(String s) {
         int[] freq = new int[26];
         
         // Step 1: Count the frequency of each character
@@ -35,7 +35,7 @@ public class EvenOddChecker {
 
     public static void main(String[] args) {
         // Test examples
-        System.out.println(evenOdd("abbbcc"));  // Output: ODD
-        System.out.println(evenOdd("nobitaa")); // Output: EVEN
+        System.out.println(oddEven("abbbcc"));  // Output: ODD
+        System.out.println(oddEven("nobitaa")); // Output: EVEN
     }
 }
